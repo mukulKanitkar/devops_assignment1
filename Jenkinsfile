@@ -37,6 +37,7 @@ pipeline {
                 bat 'del /Q production\\*'
                 bat 'xcopy src\\* production\\ /E /Y /I'
             }
+        }
     }
     post {
         success {
@@ -47,3 +48,4 @@ pipeline {
         }
     }
 }
+ 
