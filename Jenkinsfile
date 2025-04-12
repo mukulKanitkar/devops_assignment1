@@ -20,6 +20,7 @@ pipeline {
         stage('Deploy to Staging') {
             steps {
                 echo 'Deploying code for devops assignment'
+                echo 'deploying'
             }
         }
     }
