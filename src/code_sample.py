@@ -4,4 +4,4 @@ import math
 number = float(input("Enter a number: "))
 sqrt = math.sqrt(number)
 print(f"Square root of {number} is {sqrt}")
-print("success")
+print("successful!")
