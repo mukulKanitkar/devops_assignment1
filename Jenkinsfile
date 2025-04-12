@@ -19,13 +19,7 @@ pipeline {
         }
         stage('Deploy to Staging') {
             steps {
-                echo 'Deploying code to Staging Environment'
-            }
-        }
-        
-        stage('Deploy to Production') {
-            steps {
-                echo 'Deploying code to Production Environment'
+                echo 'Deploying code for devops assignment'
             }
         }
     }
